@@ -1,0 +1,264 @@
+body{
+    background-image:url("back7.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+margin: 0;
+
+    
+}
+#footright{
+    position:absolute;
+    bottom: 0px;
+    right: 0px;
+   
+   
+}
+
+#footlieft{
+    position: absolute;
+    bottom: 0px;
+   left: 0px;
+   
+}
+h1{
+    font-family: fantasy;
+    font-size: 70px;
+    text-align: center;
+    color:gray;
+    position: relative;
+    bottom: 54px;
+}
+.box-continer{
+ 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content:center;
+    align-items:center;
+    height: 100px;
+    position: relative;
+    bottom: 80px;
+    
+    
+}
+.box{
+   
+    width:150px;
+    height: 150px;
+    border: 2px solid gray;
+
+
+    
+}
+/* ask about not gitting hover n box 4 5 6 */
+.box:hover{
+    background-color: lightgrey;
+}
+
+
+
+.button{ 
+    width:100px;
+    height: 100px;
+    display: inline-block;
+    background-image: url("back7.jpg");
+   color: rgb(73, 65, 65);
+    
+}
+.button:hover{
+    box-shadow:20px 20px 50px grey
+    
+
+}
+
+#agin{
+    position: relative;
+    left: 1000px;
+    bottom: 300px;
+    width: 150px;
+   height: 70px;
+    margin: 50px;
+    font-weight: 2000;
+    font-size: 20px;
+   
+   
+}
+#instruction{
+    position: relative;
+    right: 10px;
+    bottom: 300px;
+    margin: 30px;
+   width: 150px;
+   height: 70px;
+   font-size: 16px;
+   font-weight: 2000;
+   
+}
+#play{
+    position: relative;
+    left: 60px;
+    bottom: 100px;
+   width: 150px;
+   height: 100px;
+   font-weight: 2000;
+   font-size: 30px;
+   
+   
+}
+/* a{
+    position: relative;
+    bottom :300px;
+    
+    left: 105px;
+    top: 300px;
+    margin: 50px;
+}
+a:link, a:visited {
+    background-color: #8a8484;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color:  #8a8484;
+  }
+ #a-main{
+    position: relative;
+    bottom :50px;
+    left: 105px;
+    top: 10px;
+    margin: 50px; 
+ }*/
+ .player1{
+    background-image:url("foot.gif");
+    background-size:cover;
+    
+   
+ }
+ .player2{
+    background-image:url("righheader.gif");
+    background-size:cover;
+ }
+ 
+
+
+
+#el1{
+    color: rgb(73, 73, 71);
+    font-size: 30px;
+    position: relative;
+    left: 200px;
+    top: 290px;
+    margin: 50px;
+    width: 200px;
+    height: 55px;
+    border: 1px solid #999494;
+    text-align: center;  
+    box-shadow: 5px 5px 5px 5px #bdbaba; 
+    
+}
+#el2{
+    position: relative;
+    top:180px;
+    left: 1000px;
+    margin: 50px;
+    color: rgb(73, 73, 71);
+    font-size: 30px;
+    width: 200px;
+    height: 55px;
+    border: 1px solid #F5B7B1;
+    text-align: center;  
+    box-shadow: 5px 5px 5px 5px #bdbaba; 
+}
+#prgraph{
+    position:relative;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+}
+#fun{
+    border-radius: 50%;
+    height: 100px;
+    position: relative;
+    bottom: 100px;
+    left: 800px;
+}
+.turn{
+    background-color: #dda3a3;
+}
+#inst{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(163, 59, 80);
+}
+@media screen and (max-width: 500px) {
+  body{
+    background-image:url("back7.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 3000px;
+  }
+    #instruction{
+        position: relative;
+    top:250px;
+    left: 300px;
+    
+       
+    }
+    #agin{
+        position: relative;
+       left:500px; 
+       top: 400px;
+    }
+    #footright{
+        position:absolute;
+        top: 1200px;
+        left: 800px;
+       
+       
+       
+    }
+    
+    #footlieft{
+        position: absolute;
+        top: 1200px;
+       right:0px;
+       height:10px;
+       
+    }
+    #el1{
+       
+        position: relative;
+        left: 200px;
+        top: 1000px;
+        font-size: 2em;
+      
+        
+    }
+    #el2{
+        position: relative;
+        top:890px;
+       left: 500px;
+       
+       
+    }
+   
+    .box-continer{
+        top: 200px;
+        left: 400px;
+    }
+    h1{
+        left: 400px;
+
+
+
+    }
+    #prgraph{
+        left: 300px;
+    }
+    
+
+}
