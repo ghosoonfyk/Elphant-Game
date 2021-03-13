@@ -1,7 +1,7 @@
 # ELPHANT GAME
 ## Elephant game 
 ### It is more like tic tac too but in different input in tic tac to your input will be (X,O), in elephant game your input will be one of two elephant ,win your elephant complete one row or one column you’ll be the winner . you have 9 move .just relax and enjoy .
-## [ELPHANT GAME](https://pages.git.generalassemb.ly/ghosoonfk/first-project/index.html)
+## [ELPHANT GAME](https://ghosoonfyk.github.io/Elphant-Game/)
 ## FRAMEWAIRE
 ## [lucid](https://lucid.app/documents#/dashboard?folder_id=home)
 
